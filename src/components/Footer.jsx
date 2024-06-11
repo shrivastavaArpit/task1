@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+// import { faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const FooterContainer = styled.footer`
   background-color: #000000;
@@ -64,9 +64,9 @@ const cards = () => {
           <h4>Contact Us On </h4>
           <SocialLinks>
             
-          <Link href="https://www.instagram.com/vision_nitb?igsh=MWVqZDNtbjZlN3dpNw=="><FontAwesomeIcon icon={faInstagram} size="2x" /></Link>
+          {/* <Link href="https://www.instagram.com/vision_nitb?igsh=MWVqZDNtbjZlN3dpNw=="><FontAwesomeIcon icon={faInstagram} size="2x" /></Link> */}
 
-            <Link href="https://www.facebook.com/visionmanit/"><FontAwesomeIcon icon={faFacebook} size="2x" /></Link>
+            {/* <Link href="https://www.facebook.com/visionmanit/"><FontAwesomeIcon icon={faFacebook} size="2x" /></Link> */}
             {/* <Link href="#"><FontAwesomeIcon icon={faTwitter} size="2x" /></Link> */}
           </SocialLinks>
           </Column>
